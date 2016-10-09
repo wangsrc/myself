@@ -1,0 +1,318 @@
+body{
+    height:100%;
+    position: relative;
+    font: 18px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #D41515;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 100;
+    background: #dc983a;
+    opacity:0.8;
+    box-shadow:3px 3px 3px 3px #dc983a;
+}
+#logo{
+    display: inline-block;
+    margin:6px 20px;
+    float: left;
+}
+header img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    -webkit-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+.header_img{
+    float: left;
+}
+header img:hover {
+    box-shadow: 0 0 15px #1FAEFF;
+}
+.header_p{
+    float: left;
+    margin: 20px  25px 5px;
+    padding: 5px 15px;
+    width: 50px;
+    color: #000000;
+}
+nav {
+    margin-top: 30px;
+    margin-right: 60px;
+}
+nav {
+    float: right;
+}
+nav li {
+    float: left;
+    margin: 0 20px;
+}
+nav li a {
+    padding: 25px 0;
+    position: relative;
+    color: #666;
+}
+nav li a:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    height: 2px;
+    background: #1FAEFF;
+    opacity: 0;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
+nav li a:hover {
+    color: #000;
+}
+nav li a:hover:after {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.section{
+    position: relative;
+    background-color:#fff;
+    overflow: hidden;
+    text-align: center;
+}
+.session1{
+    background:url("../img/bj.jpg");
+}
+.session1 h1{
+    font-size: 50px;
+    color:#fff;
+    text-shadow:0px 0px 0 rgb(188,178,188),1px 0px 0 rgb(173,163,173),2px 0px 0 rgb(157,147,157),3px 0px 0 rgb(142,132,142),4px 0px 0 rgb(126,116,126),5px 0px 0 rgb(111,101,111),6px 0px 0 rgb(95,85,95), 7px 0px 0 rgb(79,69,79),8px 0px 7px rgba(0,0,0,0.35),8px 0px 1px rgba(0,0,0,0.5),0px 0px 7px rgba(0,0,0,.2);
+    font-family: "Adobe 宋体 Std L";
+    margin-bottom: 20px;
+    margin-left: 800px;
+}
+.session1 p{
+    font-size: 16px;
+    color:#000;
+    margin: 5px 800px 5px 5px;
+    text-shadow: 6px 6px 6px #000;
+    font-weight: bold;
+}
+.session1 a{
+    color:#953b39;
+}
+.corner1{
+    left:10%;
+    top:10%;
+    position: fixed;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.corner2{
+    right:10%;
+    top:10%;
+    position: fixed;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.corner3{
+    left:10%;
+    bottom:10%;
+    position: fixed;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.corner4{
+    right:10%;
+    bottom:10%;
+    position: fixed;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.session2{
+    background:url("../img/bj.jpg");
+    margin-top: -80px;
+}
+.title{
+    display: block;
+    margin-top: -400px;
+}
+.skill h1{
+    font-size:30px;
+    color:#000;
+    font-weight: bold;
+    margin: 40px;
+}
+.skill p{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.skill_list{
+    margin-top: 40px;
+    position: relative;
+}
+.skill_list .skill_list_content{
+    margin-left:220px;
+    display: inline-block;
+    float: left;
+}
+.size_top{
+    display: inline-block;
+}
+.skill_list .skill_list_content img{
+    width: 100px;
+    height: 100px;
+}
+.skill_int{
+    position: absolute;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #c8c8dc;
+    padding: 15px;
+    box-shadow: 5px 5px 5px #000;
+}
+.skill_int li{
+    font-size: 12px;
+    text-align: left;
+}
+.session3{
+    background:url("../img/bj.jpg");
+}
+.session3 .slide2{
+    position: relative;
+}
+.session3 .slide2 h1{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 650px;
+    font-size:20px;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.session3 .slide1 h1{
+    font-size:40px;
+    color:#fff;
+    text-shadow: 3px 3px 3px #000;
+}
+.session3 .slide3 h1{
+    font-size:20px;
+    color:#fff;
+    text-shadow: 3px 3px 3px #000;
+}
+.session4{
+    background:url("../img/bj.jpg");
+}
+.content{
+    height: 260px;
+    width:800px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #d4d1cc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+.content h1{
+    font-size:20px;
+    color:#000;
+    text-shadow: 1px 1px 1px #fff;
+}
+.content p{
+    font-size:20px;
+    color:#000;
+    margin-top:70px;
+}
+.next_content h1{
+    font-size:18px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.content_hide h1{
+    font-size:18px;
+    color: #6c0;
+    text-shadow: 2px 2px 2px #000;
+}
+.next_content ul li{
+    font-size:14px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.content .left_img{
+    float:left;
+    position: absolute;
+    top: 35%;
+    opacity: 0.6;
+}
+.content .right_img{
+    float:left;
+    position: absolute;
+    right:0;
+    top:35%;
+    opacity: 0.6;
+}
+.content .left_img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.content .right_img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.session5{
+    background:url("../img/bj.jpg");
+    position: relative;
+}
+.header_h1{
+    width: 130px;
+    margin-top: -400px;
+    margin-left: 740px;
+}
+.header_h1 h1{
+    font-size:30px;
+    color:#fff;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #000;
+    -webkit-transition: border-bottom .2s;
+    -moz-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+}
+.header_h1 h1:hover{
+    border-bottom: 2px solid #f50a05;
+}
+.shake-slow{
+    margin-top: 750px;
+    overflow: hidden;
+}
+.shake-slow h1{
+    font-family: "Adobe 宋体 Std L";
+    font-size:20px;
+    color:#000000;
+}
+.shake-slow p{
+    font-size:12px;
+    margin-top:20px;
+    color: #fff;
+}
+.shake-slow span {
+    font-size: 30px;
+}
